@@ -10,7 +10,7 @@
     <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Nunito:400,300,700'>
 
 
-    <link rel="stylesheet" type="text/css" href="../../assets/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css" />
 
 </head>
 
@@ -18,23 +18,23 @@
 <div class="container">
     <h1 class="heading">NYCA TIME</h1>
     <div class="form-container">
-        <form class="signup-form" action="//////">
+            <form  class="signup-form" action='<?php echo base_url();?>index.php/Login_controller/verifyLogin' method='post'>
             <h3 class="title">Sign in</h3>
 
             <div class="form-group" id="username">
                 <label><b>Username</b></label>
-                <input class="form-input"placeholder="Username" required="true"/>
+                <input class="form-input" id="txt_username" name="txt_username" placeholder="Username" type="text" required="true"/>
 
             </div>
             <div class="form-group" id="password">
                 <label><b>Password</b></label>
-                <input type="password" class="form-input"  placeholder="Password" required="true"/>
+                <input type="password" class="form-input" id="txt_password" name="txt_password" placeholder="Password" required="true"/>
 
             </div>
 
             <div class="form-group">
-                <button onclick=" " class="login-button">Login</button>
-                <input class="remember-checkbox"type="checkbox"/>
+                <button id="btn_login" type="submit" name="btn_login" class="login-button">Login</button>
+                <input class="remember-checkbox" type="checkbox"/>
                 <p class="remember-p">Remember me</p>
             </div>
         </form>

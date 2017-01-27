@@ -84,8 +84,8 @@ define('EXIT_DATABASE', 8); // database error
 define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
-//define('URL','/var/www/html/Nyca_Time_MVC/');
+define('URL','/var/www/html/Nyca_Time_MVC/');
 
-//define('CSS','/../..assets/css/');
+define('CSS','/../..assets/css/');
 //define('IMAGES',URL.'assets/images/');
 //define('JS',URL.'assets/images/');

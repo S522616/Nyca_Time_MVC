@@ -5,6 +5,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <body>
 
-<?php  echo "Hello World"; ?>
+<?php  echo "Hello World!"; ?>
 </body>
 </html>
